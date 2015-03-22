@@ -43,7 +43,7 @@ def creation(file):
 
 teste = input('Arquivo:')
 
-print('''\nInformações sobre o arquivo: "%s"\n''' % teste)
+print('''\nInformations about: "%s"\n''' % teste)
 print('Size:                %s' % str(size(teste)))
 print('Created in:          %s' % str(creation(teste)))
 print('Last Access:         %s' % str(last_access(teste)))
